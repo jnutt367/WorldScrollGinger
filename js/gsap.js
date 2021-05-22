@@ -1,3 +1,5 @@
+gsap.to("#info", { opacity: 0 })
+gsap.to("#info2", { opacity: 0 })
 gsap.registerPlugin(ScrollTrigger);
 let speed = 100;
 
@@ -181,7 +183,7 @@ scene3.fromTo("#h3-5", { y: 1000 }, { y: -550 }, 0.12)
 scene3.fromTo("#stars", { opacity: 0 }, { opacity: 0.5, y: -500 }, 0)
 
 // Scroll Back text
-scene3.fromTo("#arrow2", { opacity: 0 }, { opacity: 0.7, y: -710 }, 0.25)
+scene3.fromTo("#arrow2", { opacity: 0 }, { opacity: 0.9, y: -710 }, 0.25)
 scene3.fromTo("#text2", { opacity: 0 }, { opacity: 0.7, y: -710 }, 0.3)
 
 //gradient value change

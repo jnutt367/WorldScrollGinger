@@ -1,0 +1,1 @@
+gsap.to("#blue", { strokeWidth: 5, stroke: "blue" })
